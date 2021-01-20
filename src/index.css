@@ -1,0 +1,61 @@
+@font-face {
+  font-family: MaisonNeue;
+  src: url('./font/MaisonNeue.otf');
+ }
+ @font-face {
+  font-family: TrumpGothic;
+  src: url('./font/trump_gothic.ttf');
+ }
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4
+{
+  font-family: MaisonNeue;
+  margin:0 ;
+}
+a{
+  text-decoration: none;
+}
+
+:root
+{
+   --primary : #c30928;
+   --black   : #1b2a2f;
+   --blue    : #3799d4;
+   --orange  : #ff943b;
+   --lBlue   : #00adf2;
+   --lblack  : #111517;
+   --white   : #fff;
+}
+
+.container
+{
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+.action-btn
+{
+  height: 4rem;
+  width: 4rem;
+  display: block;
+  border-radius: 50%;
+  background-color: var(--primary);
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+  margin: 0 auto;
+  font-size : 4rem;
+  text-align: center;
+}
+.action-icon
+{
+  color : var(--white);
+  font-size : 2rem;
+  display: block;
+  margin-top: 1rem;
+ 
+  
+}

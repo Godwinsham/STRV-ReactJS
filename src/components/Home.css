@@ -1,0 +1,111 @@
+#home{
+    min-height: 115vh;
+    position: relative;
+    background-color: rgba(20, 18, 18, 0.685);
+   
+}
+#vid {
+    position: absolute;
+    top : 0;
+    left : 0;
+    z-index: -1;
+    width: 100%;
+   
+}
+.heading{
+    font-family: 'TrumpGothic';
+    font-size: 5.5rem;
+    color : var(--white);
+    line-height: 5.2rem;
+
+}
+.box
+{
+    margin-top: 2rem;
+    height: 5px;
+    width:2.5rem;
+    background-color: var(--primary);
+    margin-bottom: 2rem;
+}
+.description
+{
+    font-family: 'MaisonNeue';
+    font-size: 1.1rem;
+    color: var(--white);
+    font-weight: 200;
+
+}
+.btn-red
+{
+    margin-top: 2rem;
+    background-color:  #ef0d23;
+    font-family: 'MaisonNeue';
+    text-transform: uppercase;
+    border-radius: 1px;
+    border : none;
+    position: relative;
+    top:3rem;
+    color: var(--white) !important;
+    padding: 1.6rem 2.8rem;
+    letter-spacing: 2px;
+    transition: .3s;
+}
+.btn-red:hover{
+    background-color: var(--primary);
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: 50% 50%; 
+}
+.play
+{
+    color: var(--primary);
+    font-size: 8rem;
+    position: relative;
+    top: 35%;
+    left: 35%;
+    align-items: center;
+    transition: .4s;
+}
+.play:hover
+{
+    color: var(--white);
+    font-size:9rem;
+    position: relative;
+    top: 35%;
+    left: 35%;
+    align-items: center;
+}
+.line
+{
+    position: relative;
+    top: 5rem;
+    height: 1px;
+    width: 100%;
+    background-color: var(--white);
+    opacity: 20%;
+}
+.holder{
+    margin-top: 7rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    color: var(--white);
+}
+.slogan h4
+{
+   font-weight: 300;
+   font-size: .8rem;
+   letter-spacing: 2px;
+}
+.logos
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.logos a img
+{
+    width: 8rem;
+    margin-right: 5rem;
+}

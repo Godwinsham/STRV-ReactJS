@@ -1,0 +1,28 @@
+.nav
+{
+    background-color: transparent;
+    display: block;
+    min-height: 15vh;
+}
+.logo
+{
+    float: left;
+    display: inline;
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 2rem 0 0 3rem;
+    color: var(--primary);
+    width: 1rem;
+}
+.option
+{
+    float: right;
+    display: inline;
+    margin: 2rem 3rem 0 3rem;
+    color: var(--white);
+    font-size: 2rem;
+}
+.option:hover
+{
+    color: var(--primary);
+}
